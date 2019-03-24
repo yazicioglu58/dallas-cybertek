@@ -17,8 +17,9 @@ public static void main(String[] args) {
 		System.out.println(faker.address().city());
 		
 		System.out.println(faker.name().name());
+		System.out.println(faker.name().lastName());
 		System.out.println(faker.phoneNumber().cellPhone());
-		
+
 		WebDriverManager.chromedriver().setup();
 		
 		WebDriver driver = new ChromeDriver();
